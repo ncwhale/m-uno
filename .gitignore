@@ -1,3 +1,4 @@
+# ---> Node
 # Logs
 logs
 *.log
@@ -24,10 +25,13 @@ coverage
 build/Release
 
 # Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
 
-# Optional npm cache directory
-.npm
+# Do no truck config & debug file.
+config/*.json
+config/*.js
+*debug.json
 
-# Optional REPL history
-.node_repl_history
+# do not truck vscode file.
+.vscode
