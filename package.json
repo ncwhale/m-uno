@@ -29,6 +29,8 @@
     "koa-compose": "^3.1.0",
     "koa-router": "^7.0.1",
     "koa-socket": "^4.3.0",
-    "node-uuid": "^1.4.7"
+    "node-uuid": "^1.4.7",
+    "sequelize": "^3.23.2",
+    "sqlite3": "^3.1.4"
   }
 }
